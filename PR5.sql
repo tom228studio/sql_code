@@ -5,7 +5,6 @@ where prod_price = 2.50;
 SELECT prod_id, prod_name, prod_price FROM products
 where prod_name = "Fuses";
 --Задача 3.
---Предусловие: в таблицу products добавить запись, у которой в столбце с наименованием продукта содержится значение fuses. 
 SELECT prod_id, prod_name, prod_price FROM products
 where prod_name = "Fuses" or prod_name = "fuses";
 --Задача 4.
